@@ -472,3 +472,47 @@ body {
     width: 90px;
     margin: 2rem auto;
 }
+
+
+/* ___________________________________________________________ */
+/* Gallery */
+
+/* Estilos para os containers das imagens */
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #0D0D0D;
+}
+
+/* Estilos ao passar o mouse sobre as imagens */
+#gallery .image-container:hover {
+    border-color: #976DF2;
+}
+
+/* Define a imagem de fundo para cada container */
+#insta1 {
+    background-image: url('../img/insta1.jpg');
+}
+
+#insta2 {
+    background-image: url('../img/insta2.jpg');
+}
+
+#insta3 {
+    background-image: url('../img/insta3.jpg');
+}
+
+#insta4 {
+    background-image: url('../img/insta4.jpg');
+}
+
+#insta5 {
+    background-image: url('../img/insta5.jpg');
+}
+
+#insta6 {
+    background-image: url('../img/insta6.jpg');
+}
